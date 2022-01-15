@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container1{
+    width: 50%;
+    height: 10%;
+    margin: 10% auto;
+    position: relative;
+}
+
+.Container-left{
+    width:35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#Tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#Lists{
+    font-size: 2.5rem;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+
+.Container-right{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    font-size:  30px; 
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right:0 ;
+    opacity: 0.5;
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.card1{
+    margin-top: 0px;
+    margin-left: 300px;
+    border: 1.5px solid rgb(243, 60, 105);
+    height: 45vh;
+    width: 15%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.div1{
+    position: absolute;
+    font-size: 25px;
+    text-align: left;
+    top: 15px;
+    right: 0;
+    width: 85%;
+    height: 15%;
+    border-bottom: 1.5px solid rgb(29, 26, 26);
+}
+
+#a{
+    text-decoration: none;
+    color:rgb(243, 60, 105);
+}
+
+.div2{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(247, 27, 74); 
+    top: 120px;
+    width: 90%;
+    height: 10%;
+    text-align: right;
+    text-decoration: line-through rgb(253, 1, 56);
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top:52%;
+    text-align: left;
+    font-size: 18px;
+}
+
+#check1{
+    margin-left: 10px;
+    width:15px;
+    height:15px;
+}
+
+.card2{
+    margin-top: 0px;
+    margin-left:650px;
+    border: 1.5px solid rgb(243, 60, 105);
+    height: 45vh;
+    width: 15%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.div4{
+    position: absolute;
+    font-size: 25px;
+    color: rgb(243, 60, 105);
+    text-align: left;
+    top: 15px;
+    right: 0;
+    width: 85%;
+    height: 15%;
+    border-bottom: 1.5px solid rgb(29, 26, 26);
+}
+
+.div5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(247, 27, 74); 
+    top: 120px;
+    width: 90%;
+    height: 10%;
+    text-align: right;
+    text-decoration: line-through rgb(253, 1, 56);
+}
+
+.div6{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top:52%;
+    text-align: left;
+    font-size: 18px;
+}
+
+#check2{
+    margin-left: 10px;
+    width:15px;
+    height:15px;
+}
+
+.card3{
+    margin-top: 0px;
+    margin-left: 1000px;
+    border: 1.5px solid rgb(243, 60, 105);
+    height: 45vh;
+    width: 15%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.div7{
+    position: absolute;
+    font-size: 25px;
+    color: rgb(243, 60, 105);
+    text-align: left;
+    top: 15px;
+    right: 0;
+    width: 85%;
+    height: 15%;
+    border-bottom: 1.5px solid rgb(29, 26, 26);
+}
+
+.div8{
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(247, 27, 74); 
+    top: 120px;
+    width: 90%;
+    height: 10%;
+    text-align: right;
+    text-decoration: line-through rgb(253, 1, 56);
+}
+
+.div9{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top:52%;
+    text-align: left;
+    font-size: 18px;
+}
+
+#check3{
+    margin-left: 10px;
+    width:15px;
+    height:15px;
+}
+
+.blur{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    background-color: white;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 25vh;
+    width:27%;
+    color: #ff5959;
+    border: 2px solid #ff5959;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align:center;
+    padding: 20px;
+}
+
+#text{
+    opacity: 0.9;
+    font-size:20px;  
+    font-weight: bold; 
+    margin-left: 10px;
+}
+
+.input-area{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid #ff5959;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.add-button{
+ 
+    width: 25%;
+    height: 20%;
+    margin-top: 25px;
+    color: white;
+    background-color: #ff5959;
+    border-radius: 20px;
+    border:none;
+    position: relative;
+    font-size: 20px;
+
+
+}
